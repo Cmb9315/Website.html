@@ -2,3 +2,39 @@
 .Rhino {color : grey;}
 .revit {color : rgb(58, 58, 239);}
 body {background-color: #191919; color: #ffffff;}
+#Rhino{ background-color: grey; 
+    height: 100px;
+    width: 100px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 18px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    visibility: visible;
+    }
+#CAD{ background-color: gray; 
+    height: 200px;
+    width: 200px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 18px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    visibility: visible;
+    }
+#revit{ background-color: gray; 
+    height: 200px;
+    width: 200px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 18px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    visibility: visible;
+    }
