@@ -1,19 +1,15 @@
 .CAD {color : red;}
-.Rhino {color : grey;}
+.Rhino {color : rgb(9, 9, 9);}
 .revit {color : rgb(58, 58, 239);}
 body {background-color: #191919; color: #ffffff;}
 #Rhino{ background-color: grey; 
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     border-color: white;
     border-width: 3px;
     border-style: solid;
     border-radius: 18px;
-    padding: 20px;
-    margin: 20px;
-    display: inline-block;
-    visibility: visible;
-    }
+    display: inline-block;}
 #CAD{ background-color: gray; 
     height: 200px;
     width: 200px;
@@ -21,11 +17,7 @@ body {background-color: #191919; color: #ffffff;}
     border-width: 3px;
     border-style: solid;
     border-radius: 18px;
-    padding: 20px;
-    margin: 20px;
-    display: inline-block;
-    visibility: visible;
-    }
+    display: inline-block;}
 #revit{ background-color: gray; 
     height: 200px;
     width: 200px;
@@ -33,8 +25,11 @@ body {background-color: #191919; color: #ffffff;}
     border-width: 3px;
     border-style: solid;
     border-radius: 18px;
-    padding: 20px;
-    margin: 20px;
-    display: inline-block;
-    visibility: visible;
+    display: inline-block;}
+
+#container{ background-color: none; 
+    height: 500px;
+    border-style: solid;
+   align-items: center;
+   flex-direction: row;
     }
