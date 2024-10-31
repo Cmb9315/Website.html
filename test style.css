@@ -1,0 +1,47 @@
+.CAD {color : red;}
+.Rhino {color : rgb(9, 9, 9);}
+.revit {color : rgb(58, 58, 239);}
+body {background-color: #191919; color: #ffffff;}
+#Rhino {
+    background-color: grey;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 18px;
+    padding: 10px; /* Added padding to prevent content overflow */
+}
+
+#CAD {
+    background-color: gray;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 18px;
+    padding: 10px; /* Added padding to prevent content overflow */
+}
+
+#revit {
+    background-color: gray;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 18px;
+    padding: 10px; /* Added padding to prevent content overflow */
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    overflow: auto;
+    gap: 10px; /* Added gap to create space between flex items */
+}
+
+.title {
+    font-size: 30px;
+}
+
+/* Added class to resize images within their containers */
+.container img {
+    max-width: 100%;
+}

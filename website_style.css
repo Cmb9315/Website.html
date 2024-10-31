@@ -3,33 +3,32 @@
 .revit {color : rgb(58, 58, 239);}
 body {background-color: #191919; color: #ffffff;}
 #Rhino{ background-color: grey; 
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-color: white;
     border-width: 3px;
     border-style: solid;
-    border-radius: 18px;
-    display: inline-block;}
+    border-radius: 18px;}
 #CAD{ background-color: gray; 
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-color: white;
     border-width: 3px;
     border-style: solid;
-    border-radius: 18px;
-    display: inline-block;}
+    border-radius: 18px;}
 #revit{ background-color: gray; 
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-color: white;
     border-width: 3px;
     border-style: solid;
-    border-radius: 18px;
-    display: inline-block;}
+    border-radius: 18px;}
 
-#container{ background-color: none; 
-    height: 500px;
-    border-style: solid;
-   align-items: center;
-   flex-direction: row;
-    }
+.container{ background-color: none; 
+    height: auto;
+    width: auto;
+    border-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    overflow: auto;}
