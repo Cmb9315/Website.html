@@ -3,60 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Archiplanner Header</title>
     <link rel="stylesheet" href="website_style.css">
-    
-
-
     <style>
         body {
             margin: 0;
-            font-family: 'Franklin Gothic Medium',sans-serif;
+            font-family: Arial, sans-serif;
         }
         .header {
-            background-color: black;
+            background-color: rgb(0, 0, 0);
             color: white;
             text-align: center;
             padding: 20px;
             font-size: 2em;
             font-weight: bold;
         }
+        menu {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        menu  {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .menu .hover {
+            background-color: #000;
+            border-radius: 5px;
+        }
+        /* THIS IS FOR SIZING | DONT TOUCH PLEASE*/
+        .resized-image {
+            width: 25%; 
+            height: auto; 
+            display: left;
+            margin: 0 auto; 
+        }
     </style>
-    <title>Archiplanner Header</title>
 </head>
 <body>
-<u><b><p style="font-size: 40px;">Archiplaner</p></b></u>
+    <header class="header">Archiplanner</header>
+    <nav class="menu">
+        <a href="#home">Home</a>
+        <a href="Websiteabout.html">About</a> 
+        <a href="websiterhino.html">Rhino</a>
+        <a href="revit">Revit</a>
+        <a href="autocad">AutoCAD</a>
+    </nav>
+    <main>
+        <section id="rhino">
+            <img src="Rhinomg.png" alt="Rhino 3D Software Logo" class="resized-image">
+            <p style="font-size: 30px; font-weight: bold;">Rhino</p>
+            <p>Presets: Door, Window, Furniture, Materials, etc.</p>
+            <hr>
+        </section>
+        <section id="autocad">
+            <img src="Autocad image.png" alt="AutoCAD Software Logo" class="resized-image">
+            <p style="font-size: 30px; font-weight: bold;">AutoCAD</p>
+            <p>Presets: Door, Window, Furniture, Materials, etc.</p>
+            <hr>
+        </section>
+        <section id="revit">
+            <img src="Revit img.png" alt="Revit Software Logo" class="resized-image">
+            <p style="font-size: 30px; font-weight: bold;">Revit</p>
+            <p>Presets: Door, Window, Furniture, Materials, etc.</p>
+            <hr>
+        </section>
+    </main>
+    <footer>
 
-
-
-<b></b><br><p style="font-size: 30px;">Welcome to Archieplaner</p></br></b>
-<p>Click for inforamtion about our website.</p>
-<hr>
-
-<div id="container">
-<div id="Rhino">
-<img src>="Rhino.jpg" alt="Rhino Logo" width="400">
-<b></b><p style="font-size: 30px;">Rhino</p></b> 
-<p class="Rhino">Presets: Door, Window, Furniture, Materials etc</p>
-</div>
-
-<dia id="CAD">
-<img src="unnamed.png" alt="CAD Logo" width="400">
-<b></b><p style="font-size: 30px;">AutoCAD</p></b>
-<p class="CAD">Presets: Door, Window, Furniture, Materials etc</p>
-</div>
-
-<div id="revit">
-<img src="revit.png" alt="Revit Logo" width="360">
-<p style="font-size: 30px;">Revit</p></b>
-<p class="revit">Presets: Door, Window, Furniture, Materials etc</p>
-</div>
-</div>
-
+    </footer>
 </body>
-<footer>
-
-
-
-</footer>
 </html>
