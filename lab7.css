@@ -1,0 +1,125 @@
+/* Question 1 */
+
+.transition-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s;
+  }
+  
+        .transition-button:hover {
+    background-color: green;
+  }
+
+  /* Question 2 */
+         .transition-div {
+    width: 100px;
+    height: 100px;
+    background-color: Orange;
+    transition: width 1s;
+  }
+        .transition-div:hover {
+  
+          width: 200px;
+ 
+        }
+
+
+/* Question 3 */
+
+.transition-text {
+    font-size: 16px;
+    transition: font-size 0.3s;
+  }
+  
+  .transition-text:hover {
+    font-size: 24px;
+         }
+
+  /* Question 4 */
+  
+    .transition-image {
+    width: 200px;
+    transition: opacity 0.8s;
+  }
+     .transition-image:hover {
+    opacity: 0.5;
+  }
+
+  /* Question 5 */
+
+
+  .scale-div {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    transition: transform 0.3s;
+
+  }
+        .scale-div:hover {
+    transform: scale(1.5);
+  }
+
+
+  /* Question 6 */
+  
+  .scale-image {
+    width: 200px;
+    transition: transform 0.3s;
+  }
+  .scale-image:hover {
+    transform: scale(0.75);
+  }
+
+
+  /* Question 7 */
+
+  .translate-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+   
+  .translate-button:hover {
+    transform: translate(50px, 20px);
+  }
+
+
+  /* Question 8*/
+  
+  .translate-div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: transform 0.3s;
+  }
+  .translate-div:hover {
+    transform: translate(-100px, 0);
+  }
+
+  /* Question 9 */
+
+
+  .skew-heading {
+    font-size: 24px;
+    transition: transform 0.3s;
+  }
+  .skew-heading:hover {
+    transform: skewX(20deg);
+  }
+
+  /* Question 10 */
+
+  
+  .skew-paragraph {
+    font-size: 18px;
+    transition: transform 0.3s;
+  }
+  .skew-paragraph:hover {
+    transform: skewY(15deg);
+  }
