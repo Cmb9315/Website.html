@@ -1,70 +1,78 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #000000; 
+    color: #ffffff;
 }
+
 .header {
-    background-color: rgb(0, 0, 0);
+    background-color: #222;
     color: white;
     text-align: center;
-    padding: 20px;
-    font-size: 2em;
+    padding: 30px;
+    font-size: 2.5em;
     font-weight: bold;
+    text-shadow: 2px 2px 5px #000;
 }
+
 .menu {
     background-color: #333;
-    padding: 10px;
+    padding: 15px 0;
     text-align: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
 }
+
 .menu a {
     color: white;
-    padding: 10px 20px;
+    padding: 10px 25px;
     text-decoration: none;
-    display: inline-block;
-}
-.menu a:hover {
-    background-color: #000;
+    font-size: 1.2em;
+    font-weight: bold;
     border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
 }
-/* THIS IS FOR SIZING | DONT TOUCH PLEASE*/
+
+.menu a:hover {
+    background-color: #555;
+    transform: scale(1.1);
+}
+
 .resized-image {
-    width: 25%; 
-    height: auto; 
-    display: left;
-    margin: 0 auto; 
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.3s;
 }
 
+.resized-image:hover {
+    transform: scale(1.1);
+}
 
-v.CAD {color : red;}
-.Rhino {color : rgb(9, 9, 9);}
-.revit {color : rgb(58, 58, 239);}
-body {background-color: #191919; color: #ffffff;}
-#Rhino{ background-color: grey; 
-    height: 150px;
-    width: 150px;
-    border-color: white;
-    border-width: 3px;
-    border-style: solid;
-    border-radius: 18px;}
-#CAD{ background-color: gray; 
-    height: 150px;
-    width: 150px;
-    border-color: white;
-    border-width: 3px;
-    border-style: solid;
-    border-radius: 18px;}
-#revit{ background-color: gray; 
-    height: 150px;
-    width: 150px;
-    border-color: white;
-    border-width: 3px;
-    border-style: solid;
-    border-radius: 18px;}
-
-.container{ background-color: none; 
-    height: auto;
-    width: auto;
-    border-style: none;
+.container {
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    overflow: auto;}
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 20px;
+    flex-wrap: nowrap;
+}
+
+#Rhino, #CAD {
+    text-align: center;
+    max-width: 300px;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #222;
+    text-align: center;
+    color: #aaa;
+    padding: 15px 0;
+    font-size: 14px;
+    margin-top: 30px;
+}
