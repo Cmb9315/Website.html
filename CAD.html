@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,8 +13,8 @@
             line-height: 1.8;
         }
         h1 {
-            margin-bottom: 20px;
-            font-size: 2em;
+            margin-bottom: 10px;
+            font-size: 6em;
         }
         p {
             margin-top: 10px;
@@ -27,7 +27,7 @@
             display: inline-block;
             margin: 20px 0;
             text-decoration: none;
-            color: #333;
+            color: white;
             font-weight: bold;
         }
         .back-link {
@@ -47,18 +47,21 @@
             object-fit: ccontain;
         }
 
-        
+      
     </style>
 </head>
 <body>
     <main>
         <section>
             
+            <div class="text-bg-secondary p-3">
             <a href="website.html" class="back-link">← Back to Home</a> 
 
             <h1>AutoCAD</h1>
             <p>Links to free presets of doors, windows, materials.</p>
+        </div>
            
+
             <div class="images">
                
                 <img src="Doors.png" alt="Door">
@@ -86,7 +89,7 @@
       <div class="card">
         <img src="CAD window.png" class="card-img-top" alt="Window">
         <div class="card-body">
-          <h5 class="card-title">Spmale Window</h5>
+          <h5 class="card-title">Simple Window</h5>
           <p class="card-text">Windows can come in a diferent shape and size, but on average, they are 36in wide and 60in tall.  This window is shown in two different view points: top and front. These views provide a complete picture of the architectural design, facilitating communication, analysis, and construction. </p>
           <a href="https://www.freecads.com/en/architecture/window-elevation-00000844-10592" class="btn btn-primary">Download here</a>
         </div>
@@ -107,8 +110,14 @@
 
         </section>
     </main>
-    <footer>
-       
-    </footer>
+    <footer class="bg-secondary">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <img src="logo with out background.png" alt="Your Logo" width="250" height="200" class="d-inline-block mx-auto">
+            </div>
+          </div>
+        </div>
+      </footer>
 </body>
 </html>
